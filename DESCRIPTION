@@ -1,0 +1,14 @@
+Package: Mixed
+Type: Package
+Title: Mixed Linear Model
+Version: 0.1.1
+Author: Marcello Gallucci
+Maintainer: Marcello Gallucci <mcfanda@gmail.com>
+Description: Estimates a mixed linear model for continuous dependent variables
+             with categorical and/or continuous variables, with options to facilitate estimation of 
+             interactions, simple slopes, simple effects, etc.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports: jmvcore (>= 0.7.1), R6 ,lmerTest, ggplot2
+Depends: jmvcore

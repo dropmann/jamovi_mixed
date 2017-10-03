@@ -1,0 +1,23 @@
+---
+title: Mixed Linear Model
+name: Mixed
+version: 0.1.1
+jms: '1.0'
+authors:
+  - Marcello Gallucci
+maintainer: Marcello Gallucci <mcfanda@gmail.com>
+date: '1970-01-01'
+type: R
+description: >-
+  Estimates a mixed linear model for continuous dependent variables with
+  categorical and/or continuous variables, with options to facilitate estimation
+  of interactions, simple slopes, simple effects, etc.
+analyses:
+  - title: Mixed Model
+    name: mixed
+    ns: Mixed
+    menuGroup: Linear Models
+    menuTitle: Mixed Model
+    description: Mixed Linear Model
+
+...
